@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/train_tab" android:title="@string/train_tab" android:showAsAction="ifRoom|withText" android:icon="@drawable/ic_add"></item>
+    <item android:id="@+id/play_reload" android:showAsAction="always|withText" android:title="@string/reload" android:icon="@drawable/ic_action_refresh" android:visible="false"></item>
+    <item android:id="@+id/select_train" android:title="@string/select_train" android:showAsAction="always|withText" android:icon="@drawable/ic_folder"></item>
+    <item android:id="@+id/edit_train" android:visible="false" android:title="@string/edit_training" android:icon="@drawable/ic_edit" android:showAsAction="ifRoom|withText"></item>
+    <item android:id="@+id/toggle_markers" android:checked="true" android:checkable="true" android:title="@string/show_markers"></item>
+    <item android:id="@+id/toggle_graph" android:title="@string/toggle_graph" android:checked="false" android:checkable="true"></item>
+    <item android:id="@+id/goto_benchmark" android:title="@string/benchmark" android:visible="false"></item>
+    <item android:id="@+id/load_demo" android:title="@string/load_demo"></item>
+    <item android:id="@+id/toggle_demo" android:title="@string/demo_mode" android:checked="true" android:checkable="true" android:visible="false"></item>
+    
+
+</menu>

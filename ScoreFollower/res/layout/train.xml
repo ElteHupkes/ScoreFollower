@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/train_scroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:fillViewport="true"
+	    android:layout_alignParentTop="true" 
+	    android:layout_alignParentLeft="true" >
+	    <RelativeLayout
+	        android:id="@+id/train_markers"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <!--  This extra relative layout is used to draw position markers -->
+		    <LinearLayout
+		        android:id="@+id/train_pages"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical">
+				
+		    </LinearLayout>
+	    </RelativeLayout>
+	</ScrollView>
+		<!-- The playback controls are outside the scrollview -->
+    <include 
+       	android:id="@+id/train_controls" 
+       	layout="@layout/train_controls" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+- Scroll / out of memory protection
+
+- Long press sort / remove page options when not recording

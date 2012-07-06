@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/play_scroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:fillViewport="true"
+	    android:layout_alignParentTop="true" 
+	    android:layout_alignParentLeft="true" >
+	    <RelativeLayout
+	        android:id="@+id/play_markers"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <!--  This extra relative layout is used to draw position markers -->
+		    <LinearLayout
+		        android:id="@+id/play_pages"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical">
+				
+		    </LinearLayout>
+	    </RelativeLayout>
+	</ScrollView>
+		<!-- The playback controls are outside the scrollview -->
+    <include 
+       	android:id="@+id/play_controls_include" 
+       	layout="@layout/play_controls" />
+    
+    <!-- And so is the position graph -->
+    <include android:id="@+id/position_graph"
+        layout="@layout/position_graph"
+        android:visibility="gone"
+    />
+        		
+</RelativeLayout>

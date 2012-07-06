@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- File dialog strings -->
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <color name="gray">#ffff0000</color>
+    <string name="err">Error</string>
+    
+    <!--  My own strings -->
+    <string name="add_page">Add pages</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Score Follower</string>
+    <string name="play_along">Play along</string>
+    <string name="train_tab">Create a training</string>
+    <string name="reload">Reload</string>
+    <string name="add_image">Add image</string>
+    <string name="select_train">Select file</string>
+    <string name="save">Save</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="remove_marker">Remove marker</string>
+    <string name="edit_training">Edit training</string>
+    <string name="show_markers">Show markers</string>
+    <string name="toggle_graph">Show position graph</string>
+    <string name="benchmark">Benchmark</string>
+    <string name="load_demo">Load demo</string>
+    <string name="demo_mode">Demo mode</string>
+    <string name="load_audio">Load audio file</string>
+    <string name="use_mic">Use microphone</string>
+
+</resources>

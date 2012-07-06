@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true" >
+
+    <ImageView
+        android:id="@+id/started_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_indicator"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageButton
+        android:src="@drawable/ic_play"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/play_start"
+        android:visibility="gone"
+        android:onClick="clickHandler" />
+
+    <ImageButton
+        android:id="@+id/play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="clickHandler"
+        android:src="@drawable/ic_pause"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/play_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="clickHandler"
+        android:src="@drawable/ic_stop" 
+        android:visibility="gone" />
+</LinearLayout>

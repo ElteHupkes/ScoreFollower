@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/play_along" android:showAsAction="ifRoom|withText" android:title="@string/play_along" android:icon="@drawable/ic_slideshow" android:visible="false"></item><item android:id="@+id/add_page" android:showAsAction="always|withText" android:title="@string/add_page" android:icon="@drawable/ic_add"></item>
+    
+    <item android:id="@+id/train_save" android:showAsAction="always|withText" android:title="@string/save" android:icon="@drawable/ic_action_save" android:visible="false"></item>
+    <item android:id="@+id/load_wav" android:title="@string/load_audio"></item>
+    <item android:id="@+id/use_mic" android:title="@string/use_mic" android:checked="false" android:checkable="true" android:visible="false"></item>
+    
+
+</menu>

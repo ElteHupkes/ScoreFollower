@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true" >
+    
+    <ImageView
+        android:id="@+id/started_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_indicator"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+    <Button
+        android:id="@+id/train_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickHandler"
+        android:visibility="gone"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/train_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickHandler"
+        android:text="Pause" 
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/train_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickHandler"
+        android:text="Stop"
+        android:visibility="gone" />
+</LinearLayout>

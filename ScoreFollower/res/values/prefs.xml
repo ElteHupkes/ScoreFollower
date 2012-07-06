@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sample_rate">44100</string>
+    <string name="window_size">0.25</string>
+    <string name="hop_size">0.25</string>
+    
+</resources>
